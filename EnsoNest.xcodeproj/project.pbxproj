@@ -7,15 +7,98 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B071A4D71227CC9F250B9D2 /* Pods_EnsoNest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45221733E8C12273C978A56E /* Pods_EnsoNest.framework */; };
+		1FB7D9B3C2DDC93C15E32E82 /* Pods_NestHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C0CDA24C512B15A19DE053 /* Pods_NestHelper.framework */; };
+		28682D1A1FA5DE5B0070B7FE /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28682D1C1FA5DE5B0070B7FE /* Alamofire.framework */; };
+		28682D1B1FA5DE5B0070B7FE /* OAuthSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28682D1D1FA5DE5B0070B7FE /* OAuthSwift.framework */; };
+		289B5C6D1FA4F24E00CF3F0A /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C6C1FA4F24E00CF3F0A /* IntentHandler.swift */; };
+		289B5C761FA4F24E00CF3F0A /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289B5C751FA4F24E00CF3F0A /* IntentsUI.framework */; };
+		289B5C791FA4F24E00CF3F0A /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C781FA4F24E00CF3F0A /* IntentViewController.swift */; };
+		289B5C7C1FA4F24E00CF3F0A /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289B5C7A1FA4F24E00CF3F0A /* MainInterface.storyboard */; };
+		289B5C801FA4F24E00CF3F0A /* NestHelperUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 289B5C731FA4F24E00CF3F0A /* NestHelperUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		289B5C831FA4F24E00CF3F0A /* NestHelper.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 289B5C6A1FA4F24E00CF3F0A /* NestHelper.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		289B5C941FA4FCC500CF3F0A /* NestApiModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 289B5C921FA4FCC500CF3F0A /* NestApiModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		289B5C971FA4FCC500CF3F0A /* NestApiModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */; };
+		289B5C981FA4FCC500CF3F0A /* NestApiModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		289B5C9E1FA4FCF300CF3F0A /* NestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */; };
+		289B5CA01FA50BA800CF3F0A /* NestAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C9F1FA50BA800CF3F0A /* NestAuth.swift */; };
 		28D36DFE1FA263780043CED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36DFD1FA263780043CED1 /* AppDelegate.swift */; };
 		28D36E001FA263780043CED1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36DFF1FA263780043CED1 /* MasterViewController.swift */; };
 		28D36E021FA263780043CED1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36E011FA263780043CED1 /* DetailViewController.swift */; };
 		28D36E051FA263780043CED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D36E031FA263780043CED1 /* Main.storyboard */; };
 		28D36E071FA263780043CED1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28D36E061FA263780043CED1 /* Assets.xcassets */; };
 		28D36E0A1FA263780043CED1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D36E081FA263780043CED1 /* LaunchScreen.storyboard */; };
+		575ADFC671E14079E0AF4A75 /* Pods_NestHelperUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9EBA80CEA7AD62CCB31CDE /* Pods_NestHelperUI.framework */; };
+		E9E3451339C3CFA6619DE8B9 /* Pods_NestApiModel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CC8210A5BB957F7ED5254 /* Pods_NestApiModel.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		289B5C7E1FA4F24E00CF3F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D36DF21FA263780043CED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289B5C721FA4F24E00CF3F0A;
+			remoteInfo = NestHelperUI;
+		};
+		289B5C811FA4F24E00CF3F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D36DF21FA263780043CED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289B5C691FA4F24E00CF3F0A;
+			remoteInfo = NestHelper;
+		};
+		289B5C951FA4FCC500CF3F0A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28D36DF21FA263780043CED1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289B5C8F1FA4FCC500CF3F0A;
+			remoteInfo = NestApiModel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		289B5C8A1FA4F24E00CF3F0A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				289B5C831FA4F24E00CF3F0A /* NestHelper.appex in Embed App Extensions */,
+				289B5C801FA4F24E00CF3F0A /* NestHelperUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C9C1FA4FCC500CF3F0A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				289B5C981FA4FCC500CF3F0A /* NestApiModel.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1531879011F610D9ACF86C44 /* Pods-NestApiModel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestApiModel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestApiModel/Pods-NestApiModel.debug.xcconfig"; sourceTree = "<group>"; };
+		28682D1C1FA5DE5B0070B7FE /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28682D1D1FA5DE5B0070B7FE /* OAuthSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = OAuthSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B5C6A1FA4F24E00CF3F0A /* NestHelper.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NestHelper.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B5C6C1FA4F24E00CF3F0A /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		289B5C6E1FA4F24E00CF3F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289B5C731FA4F24E00CF3F0A /* NestHelperUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NestHelperUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B5C751FA4F24E00CF3F0A /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		289B5C781FA4F24E00CF3F0A /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		289B5C7B1FA4F24E00CF3F0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		289B5C7D1FA4F24E00CF3F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NestApiModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B5C921FA4FCC500CF3F0A /* NestApiModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestApiModel.h; sourceTree = "<group>"; };
+		289B5C931FA4FCC500CF3F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestApi.swift; sourceTree = "<group>"; };
+		289B5C9F1FA50BA800CF3F0A /* NestAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestAuth.swift; sourceTree = "<group>"; };
 		28D36DFA1FA263780043CED1 /* EnsoNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnsoNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D36DFD1FA263780043CED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28D36DFF1FA263780043CED1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -24,24 +107,128 @@
 		28D36E061FA263780043CED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28D36E091FA263780043CED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28D36E0B1FA263780043CED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DC9F11A564C780DBC72725B /* Pods-EnsoNest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnsoNest.release.xcconfig"; path = "Pods/Target Support Files/Pods-EnsoNest/Pods-EnsoNest.release.xcconfig"; sourceTree = "<group>"; };
+		319711439F4448195800B680 /* Pods-EnsoNest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EnsoNest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EnsoNest/Pods-EnsoNest.debug.xcconfig"; sourceTree = "<group>"; };
+		40C0CDA24C512B15A19DE053 /* Pods_NestHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45221733E8C12273C978A56E /* Pods_EnsoNest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EnsoNest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47C151BEF0A31932E173316D /* Pods-NestHelperUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestHelperUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestHelperUI/Pods-NestHelperUI.release.xcconfig"; sourceTree = "<group>"; };
+		4A9EBA80CEA7AD62CCB31CDE /* Pods_NestHelperUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestHelperUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5CF633781ECA4D7FC7FEBE /* Pods-NestHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestHelper/Pods-NestHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		AF5DBFCCBE3787A1FE2B6E9A /* Pods-NestApiModel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestApiModel.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestApiModel/Pods-NestApiModel.release.xcconfig"; sourceTree = "<group>"; };
+		CFF1D6B897AECAAB25FF8142 /* Pods-NestHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-NestHelper/Pods-NestHelper.release.xcconfig"; sourceTree = "<group>"; };
+		F57A9FC0859CEDB72F51DB04 /* Pods-NestHelperUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestHelperUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NestHelperUI/Pods-NestHelperUI.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0CC8210A5BB957F7ED5254 /* Pods_NestApiModel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestApiModel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		289B5C671FA4F24E00CF3F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FB7D9B3C2DDC93C15E32E82 /* Pods_NestHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C701FA4F24E00CF3F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C761FA4F24E00CF3F0A /* IntentsUI.framework in Frameworks */,
+				575ADFC671E14079E0AF4A75 /* Pods_NestHelperUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C8C1FA4FCC500CF3F0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28682D1A1FA5DE5B0070B7FE /* Alamofire.framework in Frameworks */,
+				28682D1B1FA5DE5B0070B7FE /* OAuthSwift.framework in Frameworks */,
+				E9E3451339C3CFA6619DE8B9 /* Pods_NestApiModel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28D36DF71FA263780043CED1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				289B5C971FA4FCC500CF3F0A /* NestApiModel.framework in Frameworks */,
+				0B071A4D71227CC9F250B9D2 /* Pods_EnsoNest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		234BB708783D35BCBE54100E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				319711439F4448195800B680 /* Pods-EnsoNest.debug.xcconfig */,
+				2DC9F11A564C780DBC72725B /* Pods-EnsoNest.release.xcconfig */,
+				1531879011F610D9ACF86C44 /* Pods-NestApiModel.debug.xcconfig */,
+				AF5DBFCCBE3787A1FE2B6E9A /* Pods-NestApiModel.release.xcconfig */,
+				9B5CF633781ECA4D7FC7FEBE /* Pods-NestHelper.debug.xcconfig */,
+				CFF1D6B897AECAAB25FF8142 /* Pods-NestHelper.release.xcconfig */,
+				F57A9FC0859CEDB72F51DB04 /* Pods-NestHelperUI.debug.xcconfig */,
+				47C151BEF0A31932E173316D /* Pods-NestHelperUI.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		289B5C6B1FA4F24E00CF3F0A /* NestHelper */ = {
+			isa = PBXGroup;
+			children = (
+				289B5C6C1FA4F24E00CF3F0A /* IntentHandler.swift */,
+				289B5C6E1FA4F24E00CF3F0A /* Info.plist */,
+			);
+			path = NestHelper;
+			sourceTree = "<group>";
+		};
+		289B5C741FA4F24E00CF3F0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28682D1C1FA5DE5B0070B7FE /* Alamofire.framework */,
+				28682D1D1FA5DE5B0070B7FE /* OAuthSwift.framework */,
+				289B5C751FA4F24E00CF3F0A /* IntentsUI.framework */,
+				45221733E8C12273C978A56E /* Pods_EnsoNest.framework */,
+				FD0CC8210A5BB957F7ED5254 /* Pods_NestApiModel.framework */,
+				40C0CDA24C512B15A19DE053 /* Pods_NestHelper.framework */,
+				4A9EBA80CEA7AD62CCB31CDE /* Pods_NestHelperUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		289B5C771FA4F24E00CF3F0A /* NestHelperUI */ = {
+			isa = PBXGroup;
+			children = (
+				289B5C781FA4F24E00CF3F0A /* IntentViewController.swift */,
+				289B5C7A1FA4F24E00CF3F0A /* MainInterface.storyboard */,
+				289B5C7D1FA4F24E00CF3F0A /* Info.plist */,
+			);
+			path = NestHelperUI;
+			sourceTree = "<group>";
+		};
+		289B5C911FA4FCC500CF3F0A /* NestApiModel */ = {
+			isa = PBXGroup;
+			children = (
+				289B5C921FA4FCC500CF3F0A /* NestApiModel.h */,
+				289B5C931FA4FCC500CF3F0A /* Info.plist */,
+				289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */,
+				289B5C9F1FA50BA800CF3F0A /* NestAuth.swift */,
+			);
+			path = NestApiModel;
+			sourceTree = "<group>";
+		};
 		28D36DF11FA263780043CED1 = {
 			isa = PBXGroup;
 			children = (
 				28D36DFC1FA263780043CED1 /* EnsoNest */,
+				289B5C6B1FA4F24E00CF3F0A /* NestHelper */,
+				289B5C771FA4F24E00CF3F0A /* NestHelperUI */,
+				289B5C911FA4FCC500CF3F0A /* NestApiModel */,
+				289B5C741FA4F24E00CF3F0A /* Frameworks */,
 				28D36DFB1FA263780043CED1 /* Products */,
+				234BB708783D35BCBE54100E /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +236,9 @@
 			isa = PBXGroup;
 			children = (
 				28D36DFA1FA263780043CED1 /* EnsoNest.app */,
+				289B5C6A1FA4F24E00CF3F0A /* NestHelper.appex */,
+				289B5C731FA4F24E00CF3F0A /* NestHelperUI.appex */,
+				289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,18 +259,95 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		289B5C8D1FA4FCC500CF3F0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C941FA4FCC500CF3F0A /* NestApiModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		28D36DF91FA263780043CED1 /* EnsoNest */ = {
+		289B5C691FA4F24E00CF3F0A /* NestHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28D36E0E1FA263780043CED1 /* Build configuration list for PBXNativeTarget "EnsoNest" */;
+			buildConfigurationList = 289B5C891FA4F24E00CF3F0A /* Build configuration list for PBXNativeTarget "NestHelper" */;
 			buildPhases = (
-				28D36DF61FA263780043CED1 /* Sources */,
-				28D36DF71FA263780043CED1 /* Frameworks */,
-				28D36DF81FA263780043CED1 /* Resources */,
+				D83F92844132052DD71000C5 /* [CP] Check Pods Manifest.lock */,
+				289B5C661FA4F24E00CF3F0A /* Sources */,
+				289B5C671FA4F24E00CF3F0A /* Frameworks */,
+				289B5C681FA4F24E00CF3F0A /* Resources */,
+				B618820D8AF2E2730280C6E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+			);
+			name = NestHelper;
+			productName = NestHelper;
+			productReference = 289B5C6A1FA4F24E00CF3F0A /* NestHelper.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		289B5C721FA4F24E00CF3F0A /* NestHelperUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289B5C881FA4F24E00CF3F0A /* Build configuration list for PBXNativeTarget "NestHelperUI" */;
+			buildPhases = (
+				578173CCDD85001C973BFF11 /* [CP] Check Pods Manifest.lock */,
+				289B5C6F1FA4F24E00CF3F0A /* Sources */,
+				289B5C701FA4F24E00CF3F0A /* Frameworks */,
+				289B5C711FA4F24E00CF3F0A /* Resources */,
+				8E28FD6559B552EA51A48723 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestHelperUI;
+			productName = NestHelperUI;
+			productReference = 289B5C731FA4F24E00CF3F0A /* NestHelperUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		289B5C8F1FA4FCC500CF3F0A /* NestApiModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289B5C991FA4FCC500CF3F0A /* Build configuration list for PBXNativeTarget "NestApiModel" */;
+			buildPhases = (
+				C4ED48638FF8DD84815B76BD /* [CP] Check Pods Manifest.lock */,
+				289B5C8B1FA4FCC500CF3F0A /* Sources */,
+				289B5C8C1FA4FCC500CF3F0A /* Frameworks */,
+				289B5C8D1FA4FCC500CF3F0A /* Headers */,
+				289B5C8E1FA4FCC500CF3F0A /* Resources */,
+				121CCC4A27B28734AB00F9FC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestApiModel;
+			productName = NestApiModel;
+			productReference = 289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28D36DF91FA263780043CED1 /* EnsoNest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28D36E0E1FA263780043CED1 /* Build configuration list for PBXNativeTarget "EnsoNest" */;
+			buildPhases = (
+				EB75F744BE90A2F8444F3125 /* [CP] Check Pods Manifest.lock */,
+				28D36DF61FA263780043CED1 /* Sources */,
+				28D36DF71FA263780043CED1 /* Frameworks */,
+				28D36DF81FA263780043CED1 /* Resources */,
+				289B5C8A1FA4F24E00CF3F0A /* Embed App Extensions */,
+				289B5C9C1FA4FCC500CF3F0A /* Embed Frameworks */,
+				99AAD2378923B466E4711819 /* [CP] Embed Pods Frameworks */,
+				A0D63C27FAB84E56EDBAE5E7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289B5C7F1FA4F24E00CF3F0A /* PBXTargetDependency */,
+				289B5C821FA4F24E00CF3F0A /* PBXTargetDependency */,
+				289B5C961FA4FCC500CF3F0A /* PBXTargetDependency */,
 			);
 			name = EnsoNest;
 			productName = EnsoNest;
@@ -97,6 +364,19 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = com.ensoreus;
 				TargetAttributes = {
+					289B5C691FA4F24E00CF3F0A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					289B5C721FA4F24E00CF3F0A = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					289B5C8F1FA4FCC500CF3F0A = {
+						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
 					28D36DF91FA263780043CED1 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
@@ -117,11 +397,36 @@
 			projectRoot = "";
 			targets = (
 				28D36DF91FA263780043CED1 /* EnsoNest */,
+				289B5C691FA4F24E00CF3F0A /* NestHelper */,
+				289B5C721FA4F24E00CF3F0A /* NestHelperUI */,
+				289B5C8F1FA4FCC500CF3F0A /* NestApiModel */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		289B5C681FA4F24E00CF3F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C711FA4F24E00CF3F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C7C1FA4F24E00CF3F0A /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C8E1FA4FCC500CF3F0A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28D36DF81FA263780043CED1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -134,7 +439,189 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		121CCC4A27B28734AB00F9FC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestApiModel/Pods-NestApiModel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		578173CCDD85001C973BFF11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestHelperUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E28FD6559B552EA51A48723 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestHelperUI/Pods-NestHelperUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99AAD2378923B466E4711819 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-EnsoNest/Pods-EnsoNest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwift/OAuthSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/OAuthSwiftAlamofire/OAuthSwiftAlamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OAuthSwiftAlamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnsoNest/Pods-EnsoNest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0D63C27FAB84E56EDBAE5E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EnsoNest/Pods-EnsoNest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B618820D8AF2E2730280C6E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NestHelper/Pods-NestHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4ED48638FF8DD84815B76BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestApiModel-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83F92844132052DD71000C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestHelper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB75F744BE90A2F8444F3125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EnsoNest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		289B5C661FA4F24E00CF3F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C6D1FA4F24E00CF3F0A /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C6F1FA4F24E00CF3F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C791FA4F24E00CF3F0A /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B5C8B1FA4FCC500CF3F0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B5C9E1FA4FCF300CF3F0A /* NestApi.swift in Sources */,
+				289B5CA01FA50BA800CF3F0A /* NestAuth.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		28D36DF61FA263780043CED1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,7 +634,33 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		289B5C7F1FA4F24E00CF3F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289B5C721FA4F24E00CF3F0A /* NestHelperUI */;
+			targetProxy = 289B5C7E1FA4F24E00CF3F0A /* PBXContainerItemProxy */;
+		};
+		289B5C821FA4F24E00CF3F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289B5C691FA4F24E00CF3F0A /* NestHelper */;
+			targetProxy = 289B5C811FA4F24E00CF3F0A /* PBXContainerItemProxy */;
+		};
+		289B5C961FA4FCC500CF3F0A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289B5C8F1FA4FCC500CF3F0A /* NestApiModel */;
+			targetProxy = 289B5C951FA4FCC500CF3F0A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		289B5C7A1FA4F24E00CF3F0A /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289B5C7B1FA4F24E00CF3F0A /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
 		28D36E031FA263780043CED1 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -167,6 +680,123 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		289B5C841FA4F24E00CF3F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B5CF633781ECA4D7FC7FEBE /* Pods-NestHelper.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				INFOPLIST_FILE = NestHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.EnsoNest.NestHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289B5C851FA4F24E00CF3F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFF1D6B897AECAAB25FF8142 /* Pods-NestHelper.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				INFOPLIST_FILE = NestHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.EnsoNest.NestHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		289B5C861FA4F24E00CF3F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F57A9FC0859CEDB72F51DB04 /* Pods-NestHelperUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				INFOPLIST_FILE = NestHelperUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.EnsoNest.NestHelperUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289B5C871FA4F24E00CF3F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47C151BEF0A31932E173316D /* Pods-NestHelperUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				INFOPLIST_FILE = NestHelperUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.EnsoNest.NestHelperUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		289B5C9A1FA4FCC500CF3F0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1531879011F610D9ACF86C44 /* Pods-NestApiModel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NestApiModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.NestApiModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		289B5C9B1FA4FCC500CF3F0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF5DBFCCBE3787A1FE2B6E9A /* Pods-NestApiModel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = KQ46EWSK84;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = NestApiModel/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ensoreus.NestApiModel;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		28D36E0C1FA263780043CED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -276,7 +906,9 @@
 		};
 		28D36E0F1FA263780043CED1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 319711439F4448195800B680 /* Pods-EnsoNest.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ46EWSK84;
@@ -291,7 +923,9 @@
 		};
 		28D36E101FA263780043CED1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DC9F11A564C780DBC72725B /* Pods-EnsoNest.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KQ46EWSK84;
@@ -307,6 +941,33 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		289B5C881FA4F24E00CF3F0A /* Build configuration list for PBXNativeTarget "NestHelperUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B5C861FA4F24E00CF3F0A /* Debug */,
+				289B5C871FA4F24E00CF3F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289B5C891FA4F24E00CF3F0A /* Build configuration list for PBXNativeTarget "NestHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B5C841FA4F24E00CF3F0A /* Debug */,
+				289B5C851FA4F24E00CF3F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289B5C991FA4FCC500CF3F0A /* Build configuration list for PBXNativeTarget "NestApiModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B5C9A1FA4FCC500CF3F0A /* Debug */,
+				289B5C9B1FA4FCC500CF3F0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		28D36DF51FA263780043CED1 /* Build configuration list for PBXProject "EnsoNest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

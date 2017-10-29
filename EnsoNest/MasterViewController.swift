@@ -7,12 +7,13 @@
 //
 
 import UIKit
+import NestApiModel
 
 class MasterViewController: UITableViewController {
 
     var detailViewController: DetailViewController? = nil
     var objects = [Any]()
-
+    let nest = NestApi()
 
     override func viewDidLoad() {
         super.viewDidLoad()
