@@ -22,6 +22,9 @@
 		289B5C981FA4FCC500CF3F0A /* NestApiModel.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 289B5C901FA4FCC500CF3F0A /* NestApiModel.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		289B5C9E1FA4FCF300CF3F0A /* NestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */; };
 		289B5CA01FA50BA800CF3F0A /* NestAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B5C9F1FA50BA800CF3F0A /* NestAuth.swift */; };
+		28BC23D91FA7EB420010829C /* AuthWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC23D71FA7D4EB0010829C /* AuthWebViewController.swift */; };
+		28BC23DC1FA7FBAA0010829C /* PinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BC23DA1FA7FBAA0010829C /* PinViewController.swift */; };
+		28BC23DD1FA7FBAA0010829C /* PinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28BC23DB1FA7FBAA0010829C /* PinViewController.xib */; };
 		28D36DFE1FA263780043CED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36DFD1FA263780043CED1 /* AppDelegate.swift */; };
 		28D36E001FA263780043CED1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36DFF1FA263780043CED1 /* MasterViewController.swift */; };
 		28D36E021FA263780043CED1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D36E011FA263780043CED1 /* DetailViewController.swift */; };
@@ -99,6 +102,9 @@
 		289B5C931FA4FCC500CF3F0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestApi.swift; sourceTree = "<group>"; };
 		289B5C9F1FA50BA800CF3F0A /* NestAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestAuth.swift; sourceTree = "<group>"; };
+		28BC23D71FA7D4EB0010829C /* AuthWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthWebViewController.swift; sourceTree = "<group>"; };
+		28BC23DA1FA7FBAA0010829C /* PinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinViewController.swift; sourceTree = "<group>"; };
+		28BC23DB1FA7FBAA0010829C /* PinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinViewController.xib; sourceTree = "<group>"; };
 		28D36DFA1FA263780043CED1 /* EnsoNest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EnsoNest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28D36DFD1FA263780043CED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28D36DFF1FA263780043CED1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -211,6 +217,9 @@
 		289B5C911FA4FCC500CF3F0A /* NestApiModel */ = {
 			isa = PBXGroup;
 			children = (
+				28BC23D71FA7D4EB0010829C /* AuthWebViewController.swift */,
+				28BC23DA1FA7FBAA0010829C /* PinViewController.swift */,
+				28BC23DB1FA7FBAA0010829C /* PinViewController.xib */,
 				289B5C921FA4FCC500CF3F0A /* NestApiModel.h */,
 				289B5C931FA4FCC500CF3F0A /* Info.plist */,
 				289B5C9D1FA4FCF300CF3F0A /* NestApi.swift */,
@@ -424,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BC23DD1FA7FBAA0010829C /* PinViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,8 +627,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28BC23DC1FA7FBAA0010829C /* PinViewController.swift in Sources */,
 				289B5C9E1FA4FCF300CF3F0A /* NestApi.swift in Sources */,
 				289B5CA01FA50BA800CF3F0A /* NestAuth.swift in Sources */,
+				28BC23D91FA7EB420010829C /* AuthWebViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
