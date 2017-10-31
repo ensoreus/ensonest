@@ -22,8 +22,8 @@ struct Thermostat {
 open class NestApi: NSObject {
     private let baseUrl = "https://developer-api.nest.com"
     private let auth = NestAuth()
-    public func getPin(withViewController:UIViewController?){
-        auth.getPin(viewController: withViewController)
+    public func getPin(withViewController:UIViewController?, gotPin:@escaping ((_:String)->Void)){
+        auth.getPin(viewController: withViewController, gotPin:gotPin)
     }
     
     public func authorize(pin:String) -> Void{

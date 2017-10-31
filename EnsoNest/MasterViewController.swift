@@ -18,7 +18,9 @@ class MasterViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.leftBarButtonItem = editButtonItem
-        nest.getPin(withViewController: self.navigationController)
+        nest.getPin(withViewController: self.navigationController, gotPin:{(pin:String) in
+            print(pin)
+        })
         
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
         navigationItem.rightBarButtonItem = addButton

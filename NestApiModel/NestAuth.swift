@@ -29,8 +29,9 @@ class NestAuth: NSObject {
         sessionManager.retrier = oauth.requestAdapter
     }
     
-    public func getPin(viewController: UIViewController?){
+    public func getPin(viewController: UIViewController?, gotPin:@escaping ((String)->Void)){
         authViewController = AuthWebViewController()
+        authViewController?.gotPin = gotPin
         let nv = viewController as! UINavigationController!
         nv?.pushViewController(authViewController!, animated: true);
     }

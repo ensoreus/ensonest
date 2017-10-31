@@ -11,6 +11,7 @@ import UIKit
 class AuthWebViewController: UIViewController, UIWebViewDelegate {
     var webView : UIWebView?
     var pinViewController : PinViewController?
+    var gotPin : ((String)->Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,6 +21,10 @@ class AuthWebViewController: UIViewController, UIWebViewDelegate {
         self.view.addSubview(webView!)
         let bundle = Bundle(for: type(of: self))
         pinViewController = PinViewController(nibName: "PinViewController", bundle: bundle)
+        guard gotPin != nil else {
+            return
+        }
+        pinViewController?.gotPin = gotPin
         webView?.loadRequest(URLRequest(url:URL(string: "https://home.nest.com/login/oauth2?client_id=f2a47dec-fb5d-4dad-8370-97a915ab3eb8&state=STATE")!))
     }
 
