@@ -20,7 +20,8 @@ class NestAuth: NSObject {
     private let oauth = OAuth2Swift(
         consumerKey:    "f2a47dec-fb5d-4dad-8370-97a915ab3eb8",
         consumerSecret: "E41BTWHWMYt3q5N9yb3klATuT",
-        authorizeUrl:   "https://api.home.nest.com/oauth2/access_token", //"https://home.nest.com/login/oauth2?client_id=f2a47dec-fb5d-4dad-8370-97a915ab3eb8&state=STATE",
+        authorizeUrl:  "https://home.nest.com/login/oauth2?client_id=f2a47dec-fb5d-4dad-8370-97a915ab3eb8&state=STATE",
+        accessTokenUrl: "https://api.home.nest.com/oauth2/access_token",
         responseType:   "token"
     )
     
@@ -29,47 +30,20 @@ class NestAuth: NSObject {
         sessionManager.retrier = oauth.requestAdapter
     }
     
-    public func getPin(viewController: UIViewController?, gotPin:@escaping ((String)->Void)){
-        authViewController = AuthWebViewController()
-        authViewController?.gotPin = gotPin
-        let nv = viewController as! UINavigationController!
-        nv?.pushViewController(authViewController!, animated: true);
-    }
-    
-//    public func authorize() -> Bool{
-//        oauthswift.client.get("https://api.linkedin.com/v1/people/~",
-//                              success: { response in
-//                                let dataString = response.string
-//                                print(dataString)
-//        },
-//                              failure: { error in
-//                                print(error)
-//        }
-//        )
-//        return true
-//    }
-    
-    func postAuth(pin: String, onSuccess:@escaping ()->Void,
+    func postAuth(onSuccess:@escaping ()->Void,
                   onFailure:@escaping (_:String)->Void )
     {
-//        let _ = oauth.authorize(
-//            withCallbackURL: URL(string: "oauth-swift://oauth-callback/nest")!,
-//            scope: "thermostat", state:"Nest",
-//            success:{(credentials:OAuthSwiftCredential,
-//                    response:OAuthSwiftResponse?,
-//                    params:OAuthSwift.Parameters) in
-//                onSuccess()
-//        },
-//            failure:{(error:OAuthSwiftError) in
-//                onFailure(error.description)
-//        })
         
-        oauth.authorize(deviceToken:pin,
-                        grantType:"authorization",
-                        success: {(credentials:OAuthSwiftCredential) in
-                            onSuccess()
-        }, failure: {(error:OAuthSwiftError) in
-            onFailure(error.description)
+        let _ = oauth.authorize(
+            withCallbackURL: URL(string: "oauth-swift://oauth-callback/nest/auth_done")!,
+            scope: "thermostat", state:"Nest",
+            success:{(credentials:OAuthSwiftCredential,
+                    response:OAuthSwiftResponse?,
+                    params:OAuthSwift.Parameters) in
+                onSuccess()
+        },
+            failure:{(error:OAuthSwiftError) in
+                onFailure(error.description)
         })
         
     }
